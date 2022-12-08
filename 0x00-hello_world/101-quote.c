@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - start of program
+ * Return: value is 1
+ */
+
 int main(void)
 {
 	printf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
