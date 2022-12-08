@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-    int puts(char b);
-{
-        char b = "Programming is like building a multilingual puzzle\n";
-        return(0);
-}
+    char alx = "Programming is like building a multilingual puzzl, \n"
+    
+    puts(alx)	   
     return(0)
 }
