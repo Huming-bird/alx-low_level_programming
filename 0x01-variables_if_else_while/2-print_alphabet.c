@@ -8,8 +8,11 @@
 int main()
 
 {
-	char a[] = "abcdefghijklmnopqrstuvwxyz"
+	int a;
 
-	putchar(alpha);
+	for (a = 'a'; a <= 'z'; a++)
+	{
+		putchar(a);
+	}
 	return (0);
 }
