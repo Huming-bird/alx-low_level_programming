@@ -1,15 +1,22 @@
 #include <stdio.h>
 
-/** main - start of program
+/**
+ * main - start of program
  * Return: returns integer dtype
- * @char: holds the alphabets
  */
 
-int main()
+int main(void)
  
 {
-	char *a[] = "abcdefghijklmnopqrstuvwxyz\
-	ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	putchar(a);
+	int i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		putchar(i);
+	}
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+		putchar(i);
+	}
 	return (0);
 }
