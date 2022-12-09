@@ -2,7 +2,7 @@
 
 /**
  * main - start of prog
- * return: always int
+ * Return: always int
  */
 
 int main(void)
@@ -18,11 +18,13 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		}
-		else {
+		else
+	       	{
 			break;
 		}
 
 	}
+	putchar('\n');
 	return (0);
 
 
