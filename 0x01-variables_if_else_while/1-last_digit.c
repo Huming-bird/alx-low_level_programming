@@ -5,8 +5,6 @@
 /**
  * main - start of program
  * Return: returns integer dtype
- * @n: holds the data to be tested
- * @last: last digit
  */
 
 int main(void)
