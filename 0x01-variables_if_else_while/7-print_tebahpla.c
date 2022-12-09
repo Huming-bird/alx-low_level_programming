@@ -2,7 +2,7 @@
 
 /**
  * main - start of prog
- * return: always int
+ * Return: always int
  */
 
 int main(void)
