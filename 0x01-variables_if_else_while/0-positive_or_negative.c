@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <time.h>
 
-int main()
+/**                                                                                                                                                            * main - start of program                                                                                                                                     * Return: returns integer dtype                                                                                                                               * @n: holds the data to be tested                                                                                                                             */
+
+int main(void)
+
 {
 	int n;
 	
