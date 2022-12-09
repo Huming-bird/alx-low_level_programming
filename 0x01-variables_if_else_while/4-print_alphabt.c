@@ -8,14 +8,14 @@
 int main(void)
 
 {
-	char a[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (int i = 0; i <= 26; i++)
+	for (i ='a'; i <= 'z'; i++)
 	{
-		if (i == 4 || i == 16)
+		if (i == 101 || i == 113)
 			;
 		else
-			putchar((int) a);
+			putchar(i);
 
 	}
 	return (0);
