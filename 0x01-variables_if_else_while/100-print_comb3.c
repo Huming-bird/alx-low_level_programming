@@ -7,7 +7,7 @@
 int main(void)
 
 {
-	int a,b;
+	int a, b;
 
 	for (a = '0'; a < '9'; a++)
 	{
@@ -15,7 +15,6 @@ int main(void)
 		{
 			if (a != b)
 			{
-			
 			putchar(a);
 			putchar(b);
 			if (a == '8' && b == '9')
