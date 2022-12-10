@@ -19,15 +19,18 @@ int main(void)
 				for (d = c + 1; d <='9';d++)
 				{
 					if (b != d )
+					{
 						putchar(a);
 						putchar(b);
 						putchar(' ');
 						putchar(c);
 						putchar(d);
 						putchar(',');
-						putchar('\n');
+					}
 				}
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
