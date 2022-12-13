@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - start of prog
+ * print_alphabet - start of prog
  * Return: always int
  */
 void print_alphabet(void)
@@ -15,8 +15,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}	
