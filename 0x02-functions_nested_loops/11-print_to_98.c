@@ -33,6 +33,6 @@ void print_to_98(int n)
 			p--;
 		}
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
 
