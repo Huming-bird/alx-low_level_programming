@@ -13,27 +13,33 @@ void print_to_98(int n)
 
 	if (n < 98)
 	{
-		p = (int) n;
+		p = n;
 		while (p <= 98)
 		{
-			_putchar(p);
-			if (p == 98)
-				;
-			_putchar(',');
-			_putchar(' ');
+			if (p != 98)
+			{
+			printf("%d, ", p);
+			}
+			else if (p == 98)
+			{
+				printf("%d", p);
+			}
 			p++;
 		}
 	}
 	else
 	{
-		p = (int) n;
+		p = n;
 		while (p >= 98)
 		{
-			_putchar(p);
+			if (p != 98)
+			{
+			printf("%d, ", p);
+		}
 			if (p == 98)
-				;
-			_putchar(',');
-			_putchar(' ');
+			{
+				printf("%d", p);
+			}
 			p--;
 		}
 	}
