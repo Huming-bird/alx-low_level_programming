@@ -1,30 +1,23 @@
+
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - start of program
+ * _islower - start of program
+ * @c: character
+ *
  * Return: type int
  */
 
 int _islower(int c)
 {
-	int p;
-
-	if (islower(p))
+	if (c >= 'a' && c <= 'z')
 	{
-		return (49);
+		return (1);
 	}
 	else
 	{
-		return (48);
+		return (0);
 	}
 	return (0);
 }
-
-int main(void)
-{
-	_islower(97);
-	putchar('\n');
-	return (0);
-}
-
