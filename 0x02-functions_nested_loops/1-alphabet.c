@@ -4,22 +4,18 @@
  * main - start of prog
  * Return: always int
  */
-
-int maun(void)
-
+void print_alphabet(void)
 {
-	void print_alphabet(void);
+	char a;
+
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		int i;
-
-		i = 'a';
-
-		while i < 'z' + 1;
-		{
-			putchar(i);
-			putchar('\n');
-			i++;
-		}
+		putchar(a);
 	}
+	putchar('\n');
+}
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }	
