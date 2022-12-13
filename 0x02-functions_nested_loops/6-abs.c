@@ -12,17 +12,17 @@ int _abs(int)
 {
 	int n;
 
-	if (n == 0)
+	if (int == 0)
 	{
 		return (0);
 	}
-	else if (n < 0)
+	else if (int < 0)
 	{
-		return (n * -1);
+		return (int * -1);
 	}
 	else
 	{
-		return (n);
+		return (int);
 	}
 
 	return (0);
