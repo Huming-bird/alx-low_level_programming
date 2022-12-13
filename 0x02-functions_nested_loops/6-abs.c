@@ -3,26 +3,25 @@
 
 /**
  * _abs - start of prog
- * @int: int typ parameter
+ * @n: int typ parameter
  *
  * Return: type int
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
 
-	if (int == 0)
+	if (n == 0)
 	{
 		return (0);
 	}
-	else if (int < 0)
+	else if (n < 0)
 	{
-		return (int * -1);
+		return (n * -1);
 	}
 	else
 	{
-		return (int);
+		return (n);
 	}
 
 	return (0);
