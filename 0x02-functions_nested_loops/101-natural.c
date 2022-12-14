@@ -19,4 +19,9 @@ void natural(void)
 	printf("%d\n", sum);
 }
 
+int main(void)
+{
+	natural();
+	return (0);
+}
 
