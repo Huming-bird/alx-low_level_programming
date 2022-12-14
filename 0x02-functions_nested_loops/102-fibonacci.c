@@ -13,18 +13,18 @@ int main(void)
 	for (c = 0;  c < 50; c++)
 	{
 		sum = first + second;
-		printf("%ld", sum);
+		if (c < 49)
+		{
+			printf("%ld, ", sum);
+		}
 		first = second;
 		second = sum;
 
 		if (c == 49)
 		{
-			printf("\n");
+			printf("%ld\n", sum);
 		}
-		else
-		{
-			printf(",");
-		}
+		
 	}
 	return (0);
-}	
+}
