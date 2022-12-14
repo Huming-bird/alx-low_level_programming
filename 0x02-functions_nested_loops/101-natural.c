@@ -8,6 +8,9 @@
 
 void natural(void)
 {
+	/**
+	 * natural - start
+	 */
 	int n, sum;
 
 	sum = 0;
@@ -26,4 +29,3 @@ int main(void)
 	natural();
 	return (0);
 }
-
