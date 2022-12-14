@@ -8,14 +8,14 @@
 int main(void)
 {
 	int c;
-	unsigned long a, b, sum;
+	unsigned long first = 0, second = 1, sum;
 
 	for (c = 0;  c < 50; c++)
 	{
-		sum = a + b;
-		printf("%lu", sum);
-		a = b;
-		b = sum;
+		sum = first + second;
+		printf("%ld", sum);
+		first = second;
+		second = sum;
 
 		if (c == 49)
 		{
