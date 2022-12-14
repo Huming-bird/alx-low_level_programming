@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 /**
- * natural - start
+ * main - start
  * 
  * Return: 0/
- */
-/**
- * main - start
  */
 
 void natural(void)
