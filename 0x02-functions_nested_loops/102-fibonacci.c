@@ -23,7 +23,7 @@ int main(void)
 		if (c == 49)
 		{
 			printf("%ld\n", sum);
-		}	
+		}
 	}
 	return (0);
 }
