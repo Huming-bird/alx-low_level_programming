@@ -7,23 +7,24 @@
 
 int main(void)
 {
-	int sum, n;
-	
-	n = 0;
-	sum = 1;
-	while (n < 50)
+	int c;
+	unsigned long a, b, sum;
+
+	for (c = 0;  c < 50; c++)
 	{
-		if (n == 0)
+		sum = a + b;
+		printf("%lu", sum);
+		a = b;
+		b = sum;
+
+		if (c == 49)
 		{
-			sum = sum + 1;
+			printf("\n");
 		}
 		else
 		{
-			sum += sum;
+			printf(",");
 		}
-		putchar(sum + '0');
-		putchar('\n');
-		n++;
 	}
 	return (0);
 }	
