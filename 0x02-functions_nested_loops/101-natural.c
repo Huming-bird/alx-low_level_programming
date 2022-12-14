@@ -2,8 +2,11 @@
 
 /**
  * natural - start
- * main - main program
+ * 
  * Return: 0/
+ */
+/**
+ * main - start
  */
 
 void natural(void)
