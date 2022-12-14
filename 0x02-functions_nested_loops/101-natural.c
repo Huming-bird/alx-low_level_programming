@@ -2,15 +2,10 @@
 
 /**
  * main - start
- * 
  * Return: 0/
  */
-
-void natural(void)
+int main(void)
 {
-	/**
-	 * natural - start
-	 */
 	int n, sum;
 
 	sum = 0;
@@ -22,10 +17,5 @@ void natural(void)
 		}
 	}
 	printf("%d\n", sum);
-}
-
-int main(void)
-{
-	natural();
 	return (0);
 }
