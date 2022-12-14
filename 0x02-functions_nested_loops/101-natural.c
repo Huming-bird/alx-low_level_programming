@@ -17,5 +17,6 @@ void natural(void)
 		}
 	}
 	printf("%d\n", sum);
+}
 
 
