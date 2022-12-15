@@ -27,9 +27,3 @@ void more_numbers(void)
 		/*putchar('\n');*/
 	}
 }
-
-int main (void)
-{
-	more_numbers();
-	return (0);
-}
