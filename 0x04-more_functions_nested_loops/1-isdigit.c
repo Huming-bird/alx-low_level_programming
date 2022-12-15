@@ -19,12 +19,3 @@ int _isdigit(int c)
 	}
 	return (0);
 }
-
-int main(void)
-{
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, _isdigit(c));
-	return (0);
-}
