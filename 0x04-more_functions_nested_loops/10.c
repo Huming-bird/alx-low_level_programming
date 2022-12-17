@@ -35,6 +35,8 @@ void print_triangle(int size)
 int main (void)
 
 {
-	print_triangle(5);
+	print_triangle(10);
+	print_triangle(0);
+	print_triangle(1);
 	return (0);
 }
