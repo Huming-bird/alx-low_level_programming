@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_trianglr - start
+ * print_triangle - start
  * @size: parametr
  * Return: void
  */
