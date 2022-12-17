@@ -11,6 +11,12 @@ void print_square(int size)
 {
 	int i, n;
 
+	if (size <= 0)
+	{
+		putchar('\n');
+	}
+	else
+	{
 	for (i = 1; i <= size; i++)
 	{
 		for (n = 1; n <= size; n++)
@@ -19,10 +25,13 @@ void print_square(int size)
 		}
 		putchar('\n');
 	}
+	}
 }
 
-int main (void)
+int main(void)
 {
-print_square(3);
-return (0);
+	print_square(4);
+	print_square(-7);
+
+	return(0);
 }
