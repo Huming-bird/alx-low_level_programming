@@ -21,9 +21,9 @@ void puts2(char *str)
 		b++;
 	}
 	c = b - 1;
-	for (c = 0 ; d <= b ; d++)
+	for (d = 0 ; d <= b ; d++)
 	{
-		if (c % 2 == 0)
+		if (d % 2 == 0)
 		{
 			_putchar(str[d]);
 		}
