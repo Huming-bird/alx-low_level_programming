@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * strcpy - start
+ * _strcpy - start
  * @dest: param 1
  * @src: param 2
  * Return: char
@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		a++;
 	}
-	for ( ; a < b ; b++)
+	for ( ; b < a ; b++)
 	{
 		dest[b] = src[b];
 	}
