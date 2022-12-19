@@ -10,7 +10,7 @@
 void puts2(char *str)
 {
 	char *a = str;
-	int b, d;
+	int b, c, d;
 
 	b = 0;
 
