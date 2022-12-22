@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strcat - start
+ * _strncat - start
  * @dest: param 1
  * @src: param2
  * @n: param 3

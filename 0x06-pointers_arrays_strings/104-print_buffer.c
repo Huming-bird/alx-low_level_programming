@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * print_buffer - start
  * @b: pointer
  * @size: param 1
  * Return: void
  */
-
 void print_buffer(char *b, int size)
 {
 	int a, d, c;
@@ -39,6 +37,7 @@ void print_buffer(char *b, int size)
 		for (c = 0; c < d; c++)
 		{
 			int e = *(b + a + c);
+
 			if (e < 32 || e > 132)
 			{
 				e = '.';
