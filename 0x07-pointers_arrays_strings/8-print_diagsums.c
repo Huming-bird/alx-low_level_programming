@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_daigsums - start of prog
+ * print_diagsums - start of prog
  * @a: param 1
- * @sizee: param 2
+ * @size: param 2
  * Return: void
  */
 
