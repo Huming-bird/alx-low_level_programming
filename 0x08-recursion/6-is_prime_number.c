@@ -3,7 +3,7 @@
 int actual_prime(int n, int i);
 
 /**
- * is_prime_number
+ * is_prime_number - start of prog
  * @n: param1
  * Return: int
  */
@@ -14,7 +14,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (actual_prime(n, (n-1)));
+	return (actual_prime(n, (n - 1)));
 }
 
 /**

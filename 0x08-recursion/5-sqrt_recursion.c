@@ -2,9 +2,7 @@
 
 /**
  * _sqrt_recursion - start of prog
- * actual_sqrt_recursion - start of prog
  * @n: param1
- * @i: param2
  * Return: int
  */
 
@@ -18,6 +16,13 @@ int _sqrt_recursion(int n)
 	}
 	return (actual_sqrt_recursion(n, 0));
 }
+
+/**
+ * actual_sqrt_recursion - start of prog
+ * @n: param1
+ * @i: param2
+ * Return: int
+ */
 
 int actual_sqrt_recursion(int n, int i)
 {
