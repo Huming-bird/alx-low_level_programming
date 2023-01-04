@@ -5,7 +5,6 @@ int actual_prime(int n, int i);
 /**
  * is_prime_number
  * @n: param1
- * @i: param2
  * Return: int
  */
 
