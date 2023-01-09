@@ -13,11 +13,12 @@ char *_strdup(char *str)
 	char *a;
 	int b, c = 0;
 
+	
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	a = 0;
+	b = 0;
 	while (str[b] != '\0')
 	{
 		b++;
@@ -27,7 +28,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (c = 0; str[c] != '\0'; c++)
+	for (c = 0; str[c]; c++)
 	{
 		a[c] = str[c];
 	}
