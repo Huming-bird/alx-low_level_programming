@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * create_array - start of prog
@@ -13,7 +14,7 @@ char *create_array(unsigned int size, char c)
 	char *s;
 	unsigned int a;
 
-	s = malloc(sizeof(char) *size);
+	s = malloc(sizeof(char) * size);
 	if (size == 0 || s == NULL)
 	{
 		return (NULL);
