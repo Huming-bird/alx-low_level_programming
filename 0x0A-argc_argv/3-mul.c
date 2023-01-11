@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * atoi- start of prog
+ * _atoi - start of prog
  * @s: param2
  * Return: int
  */
@@ -11,13 +11,7 @@ int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
-	i = 0;
-	d = 0;
-	n = 0;
-	len = 0;
-	f = 0;
-	digit = 0;
-
+	i = 0, d = 0, n = 0, len = 0, f = 0, digit = 0;
 	while (s[len] != '\0')
 	{
 		len++;
