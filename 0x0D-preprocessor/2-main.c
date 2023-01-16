@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * makin - prints the name of a file
+ * main - prints the name of a file
  * Return int
  */
 
