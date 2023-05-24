@@ -1,0 +1,3 @@
+# This makefile creates an executable
+all: main.o school.o
+	gcc main.c school.c -o school
